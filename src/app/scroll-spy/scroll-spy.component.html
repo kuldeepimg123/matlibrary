@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+<!-- <p>scroll-spy works!</p> -->
+
+<ul>
+	<li scrollSpyMenu="menu1" [ssmCurrentContent]="currentMenuId">Menu 1</li>
+	<li scrollSpyMenu="menu2" [ssmCurrentContent]="currentMenuId">Menu 2</li>
+	<li scrollSpyMenu="menu3" [ssmCurrentContent]="currentMenuId">Menu 3</li>
+</ul>
+<div scrollSpyContent="DIV" [(sscCurrentContent)]="currentMenuId" class="container">
+	<div id="menu1" class="content">content1</div>
+	<div id="menu2" class="content">content2</div>
+	<div id="menu3" class="content">content3</div>
+</div>

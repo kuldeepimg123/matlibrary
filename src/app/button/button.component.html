@@ -1,0 +1,41 @@
+<app-header></app-header>
+<h4>Button ------------------</h4>
+
+<section>
+    <div class="example-label">Basic</div>
+    <div class="example-button-row">
+      <button mat-button>Basic</button>
+      <button mat-button color="primary">Primary</button>
+      <button mat-button color="accent">Accent</button>
+      <button mat-button color="warn">Warn</button>
+      <button mat-button disabled>Disabled</button>
+      <a mat-button href="https://www.google.com/" target="_blank">Link</a>
+    </div>
+  </section>
+
+  <mat-divider></mat-divider>
+
+<section>
+  <div class="example-label">Raised</div>
+  <div class="example-button-row">
+    <button mat-raised-button matTooltip="Basic Button" (click)="openSnackBar1()">Basic</button>
+    <button mat-raised-button color="primary" matTooltip="Primary Button" (click)="openSnackBar2()">Primary</button>
+    <button mat-raised-button color="accent" matTooltip="Accent Button" (click)="openSnackBar3()">Accent</button>
+    <button mat-raised-button color="warn" matTooltip="Warn Button" (click)="openSnackBar4()">Warn</button>
+    <button mat-raised-button disabled matTooltip="Disabled Button">Disabled</button>
+    <a mat-raised-button href="https://www.google.com/" target="_blank" matTooltip="Link Button">Link</a>
+  </div>
+</section>
+
+<mat-divider></mat-divider>
+<section>
+  <div class="example-label">Stroked</div>
+  <div class="example-button-row">
+    <button mat-stroked-button>Basic</button>
+    <button mat-stroked-button color="primary">Primary</button>
+    <button mat-stroked-button color="accent">Accent</button>
+    <button mat-stroked-button color="warn">Warn</button>
+    <button mat-stroked-button disabled>Disabled</button>
+    <a mat-stroked-button href="https://www.google.com/" target="_blank">Link</a>
+  </div>
+</section>
